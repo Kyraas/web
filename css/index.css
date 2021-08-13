@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 2000px;
+}
+
+#header, #footer {
+  background: #333;
+  background-image: url(../images/bg2.jpg);
+  color: #fff;
+  border: 2.5px solid black;
+  height: 100px;
+  width: auto;
+  text-align: center;
+}
+
+#nav li{
+  /* position: relative; */
+  display: block;
+  list-style: none;
+  /* float: center; */
+  cursor: pointer;
+}
+
+#nav li:hover {
+  /* color: #fff; */
+  /* background: #333; */
+}
