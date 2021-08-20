@@ -17,29 +17,6 @@ body{
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.box {
-  float: left;
-  width: 33.33%;
-  padding: 50px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 a{
   color: #fff;
   text-decoration: none;
@@ -61,7 +38,13 @@ a{
   border: 2px solid;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 #main {
   margin: 30px;
-  margin-top: 30px;
 }
