@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfit {
+    margin: 3% 10%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
