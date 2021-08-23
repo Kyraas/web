@@ -1,50 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-body{
-  height: 2000px;
-}
-
-#header, #footer {
-  background: #333;
-  background-image: url(../images/bg2.jpg);
-  color: #fff;
-  border: 2.5px solid black;
-  height: 100px;
-  width: auto;
-  text-align: center;
-}
-
-a{
-  color: #fff;
-  text-decoration: none;
-}
-
-#nav li{
-  color: #fff;
-  padding: 12px;
-  margin-top: 50px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-#nav li:hover {
-  background-color: #555;
-}
-
-#active{
-  border: 2px solid;
-}
-
-img{
+img, iframe{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
 
-#main {
+#con{
   margin: 30px;
 }
