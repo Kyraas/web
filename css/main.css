@@ -1,15 +1,15 @@
 .relevants{
   display: flex;
   flex-direction:row;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   margin: 2em 6em;
   /* padding: 2em; */
 }
 
 a.rel{
-  width: 35%;
-  height: 50%;
+  /* width: 20em; */
+  /* height: 15em; */
 }
 
 a.rel:active{
@@ -27,21 +27,23 @@ a.rel:hover {
   color: black;
   text-align: left;
   font-size: 1em;
-  width: 20em;
-  /* padding: 0 5em; */
+  width: 17em;
+  height: 10em;
+  padding: 1.5em 1.5em;
 }
 
 img {
   object-fit: cover; /* обрезка картинки */
-  width: 17em;
-  height: 12em;
+  width: inherit;
+  height: inherit;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .box p{
-  /* margin-right: 0.8em; */
+  /* margin: 1em; */
+  text-align: justify;
 }
 
  #main{
