@@ -1,0 +1,21 @@
+a.rel:active{
+  background-color: lightgray;
+  border: none;
+}
+
+a.rel:hover {
+  background-color: lightblue;
+  border: none;
+}
+
+img {
+  object-fit: cover; /* обрезка картинки */
+  /* float: left; */
+  /* width: inherit; */
+  /* height: inherit; */
+  width: 17em;
+  height: 10em;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* display: block; */
+}
