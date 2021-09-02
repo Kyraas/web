@@ -1,3 +1,11 @@
+a.rel{
+  margin: 1em 10em;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+
 a.rel:active{
   background-color: lightgray;
   border: none;
@@ -8,14 +16,14 @@ a.rel:hover {
   border: none;
 }
 
-img {
+img{
   object-fit: cover; /* обрезка картинки */
-  /* float: left; */
-  /* width: inherit; */
-  /* height: inherit; */
+  float: left;
   width: 17em;
   height: 10em;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* display: block; */
+  margin-right: 1em;
+}
+
+#footer{
+  clear: left;
 }
