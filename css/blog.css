@@ -1,5 +1,8 @@
 a.rel{
-  margin: 1em 10em;
+  width: 80%;
+  padding: 1em;
+  margin-left: 10%;
+  margin-right: auto;
   display: block;
   float: left;
   text-decoration: none;
